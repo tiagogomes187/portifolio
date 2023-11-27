@@ -4,7 +4,6 @@ import styles from "./Contatos.module.css";
 
 function Contatos() {
   return (
-    <>
       <section className={styles.contatos}>
         <h2>Contatos</h2>
 
@@ -53,7 +52,6 @@ function Contatos() {
           </a>
         </div>
       </section>
-    </>
   );
 }
 
