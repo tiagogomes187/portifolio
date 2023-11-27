@@ -5,6 +5,9 @@ import spring from './images/spring.svg'
 import springBoot from './images/springboot.svg'
 import git from './images/git.svg'
 import postgress from './images/postgresql.svg'
+import react from './images/react.svg'
+import html5 from './images/html5.svg'
+import css from './images/css.svg'
 
 
 
@@ -37,6 +40,9 @@ function Sobre() {
                 <img src={springBoot} alt="Ícone do Spring Boot" />
                 <img src={git} alt="Ícone do Spring Security" />
                 <img src={postgress} alt="Ícone do PostgresSql" />
+                <img src={html5} alt="Ícone do Html5" />
+                <img src={css} alt="Ícone do Css" />
+                <img src={react} alt="Ícone do React" />
 
                 </div>
             </div>
