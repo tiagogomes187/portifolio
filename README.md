@@ -2,5 +2,5 @@
 
 ## Tiago Gomes
 
-### Deloper Java Jr
+### Developer Java Jr
 
