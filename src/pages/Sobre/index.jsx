@@ -1,13 +1,13 @@
-import styles from './Sobre.module.css'
-import avatar from './images/avatar.png'
-import java from './images/java.svg'
-import spring from './images/spring.svg'
-import springBoot from './images/springboot.svg'
-import git from './images/git.svg'
-import postgress from './images/postgresql.svg'
-import react from './images/react.svg'
-import html5 from './images/html5.svg'
-import css from './images/css.svg'
+import styles from './Sobre.module.css';
+import avatar from './images/avatar.png';
+import java from './images/java.svg';
+import spring from './images/spring.svg';
+import springBoot from './images/springboot.svg';
+import git from './images/git.svg';
+import postgress from './images/postgresql.svg';
+import react from './images/react.svg';
+import html5 from './images/html5.svg';
+import css from './images/css.svg';
 
 
 

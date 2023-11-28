@@ -1,5 +1,7 @@
 import styles from "./Card.module.css";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact } from "react-icons/fa";
+import { FaJava, FaCss3Alt, FaReact } from "react-icons/fa";
+import { BiLogoPostgresql,BiLogoSpringBoot } from "react-icons/bi";
+import { SiTypescript } from "react-icons/si";
 import { BsArrowRight } from "react-icons/bs";
 
 // eslint-disable-next-line react/prop-types
@@ -10,9 +12,11 @@ function Card({ name, description, html_url }) {
       <p>{description}</p>
       <div className={styles.card_footer}>
         <div className={styles.card_icones}>
-          <FaHtml5 />
+          <FaJava />
+          <BiLogoSpringBoot />
+          <BiLogoPostgresql />
           <FaCss3Alt />
-          <FaJs />
+          <SiTypescript />
           <FaReact />
         </div>
         <a
