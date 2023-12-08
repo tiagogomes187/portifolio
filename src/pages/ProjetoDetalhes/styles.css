@@ -85,6 +85,10 @@
     align-items: flex-start;
 }
 
+.contribuicao a {
+    color: blue;
+}
+
 .contribuicao h2 {
     margin-top: 30px;
     margin-left: 40px;
