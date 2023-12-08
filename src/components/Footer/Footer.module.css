@@ -4,13 +4,36 @@
     background-color: var(--primary);
     color: var(--white);
     font-weight: bold;
-    font-size: 1.125rem; /* 18px */
+    font-size: 12px; /* 18px */
 
     display: flex;
     align-items: center;
     justify-content: center;
     position: fixed;
     bottom: 0;
+    padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.footer p {
+margin: 0%;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 5px;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
 }
 
 /* responsividade */
