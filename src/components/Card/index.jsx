@@ -22,7 +22,7 @@ function Card({ name, description, html_url }) {
         <a
           href={html_url}
           className={styles.botao}
-          target="_blank"
+          target="_self"
           rel="noopener noreferrer"
         >
           <BsArrowRight />

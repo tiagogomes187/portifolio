@@ -19,27 +19,18 @@ function Projetos() {
     <section className={styles.projetos}>
       <h2>Projetos</h2>
       <section className={styles.lista}>
+
+        <Card
+          name={"Catálogos de Produtos"}
+          description="Este projeto consiste em uma API que disponibilisa um catálogo de produtos e seus códigos de barras EAN."
+          html_url={"projetos/detalhes"}
+        />
         <Card
           name={"dscatalog-bootcamp-devsuperior"}
           description="Este App consiste em um catálogo de produtos completo, construir a API com Java e Spring e o Frontend com React."
           html_url={
             "https://github.com/tiagogomes187/dscatalog-bootcamp-devsuperior"
           }
-        />
-        <Card
-          name={"gtincatalog"}
-          description="Este projeto consiste em uma API que disponibilisa um catálogo de produtos e seus códigos de barras EAN."
-          html_url={"https://github.com/tiagogomes187/gtincatalog"}
-        />
-        <Card
-          name={"RestWithSpringBootUdemy"}
-          description="API REST do 0 e implante na AWS c. Spring Boot framework Swagger JWT JUnit 5 Mockito Docker React JS e +"
-          html_url={"https://github.com/tiagogomes187/RestWithSpringBootUdemy"}
-        />
-        <Card
-          name={"heroesapi"}
-          description="API de gerenciamento de heróis com Spring WebFlux e Reactor. DynamoDB localmente, realizar testes unitários com Junit e gerar documentação usando Postman e Swagger."
-          html_url={"https://github.com/tiagogomes187/heroesapi"}
         />
       </section>
       {/* {repositories.length > 0 ? (
