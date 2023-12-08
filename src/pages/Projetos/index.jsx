@@ -23,7 +23,7 @@ function Projetos() {
         <Card
           name={"Catálogos de Produtos"}
           description="Este projeto consiste em uma API que disponibilisa um catálogo de produtos e seus códigos de barras EAN."
-          html_url={"projetos/detalhes"}
+          html_url={"/projetos/detalhes"}
         />
         <Card
           name={"dscatalog-bootcamp-devsuperior"}

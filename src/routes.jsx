@@ -14,7 +14,7 @@ function AppRoutes() {
         <Route path="/" element={<PageBase />}>
           <Route index element={<Home />}></Route>
           <Route path="/sobre" element={<Sobre />}></Route>
-          <Route path="/projetos" exact element={<Projetos />}></Route>
+          <Route path="/projetos" element={<Projetos />}></Route>
           <Route path="/projetos/detalhes" element={<ProjetoDetalhes />}></Route>
           <Route path="/contatos" element={<Contatos />}></Route>
           <Route path="/" element={<Contatos />}></Route>
